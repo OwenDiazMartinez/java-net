@@ -1,0 +1,16 @@
+public class Arbol {
+   
+    public static void main(String [] args){
+        System.out.println("Arbol");
+        String espacios = "";
+        char[] cont= {' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
+        for(int x=7, y=7; y>0; x++, y--){
+            char asteriscos='*';
+            cont[x]=asteriscos;
+            cont[y]=asteriscos;
+            espacios= new String(cont);
+            System.out.println(espacios);
+        }
+        System.out.println("      ***\n      ***\n      ***\n      ***");
+    }
+}
