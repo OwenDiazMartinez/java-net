@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+public class ParImpar { 
+    public static void main(String[] args) {
+    System.out.println("Escribe un valor cualquiera");
+    int N;
+    N = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero cualquiera"));
+    System.out.println(N);
+    
+    if (N%2==0){
+        System.out.println(N + " Es par");
+    }else{
+        System.out.println(N + " Es impar");
+    }
+}
+    
+}
