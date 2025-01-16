@@ -1,0 +1,21 @@
+package programasPrimero;
+
+import javax.swing.JOptionPane;
+public class AyV_Cilindro {
+    public static void main(String[] args) {
+      System.out.println("Introdusca Radio y altura del cilindro");  
+      double R;
+      R = Byte.parseByte(JOptionPane.showInputDialog("Introduce el valo de Radio"));
+              System.out.println(R);        
+      byte H;
+      H = Byte.parseByte(JOptionPane.showInputDialog("Introdusca el valor de Altura"));
+              System.out.println(H);
+      short V;
+        V = (byte)(Math.PI * (R * R) * H);
+         System.out.println("El volumen del cilindro es:" + V);
+      short A;
+      A = (short)(2 * Math.PI * R * H);
+         System.out.println("El Area del cilindro es:" + A);
+     
+    }    
+}
